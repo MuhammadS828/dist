@@ -1158,7 +1158,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   margin: 0;
   padding: 0;
   border: 0;
@@ -1190,6 +1192,15 @@ body {
 
 .opened {
   display: block;
+}
+
+.hidden-hd {
+  display: none !important;
+}
+
+.hidden-tech-md,
+.hidden-tech-hd {
+  display: none !important;
 }
 
 /*# sourceMappingURL=style.css.map*/
